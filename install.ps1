@@ -31,7 +31,7 @@ try {
     Expand-Archive -Path $zipPath -DestinationPath $InstallDir -Force
     Remove-Item -Path $zipPath -Force
 } catch {
-    Write-Host "ERROR: Failed to download the release. Please check your internet connection." -ForegroundColor Red
+    Write-Host "ERROR: $($_.Exception.Message)" -ForegroundColor Red
     exit 1
 }
 
