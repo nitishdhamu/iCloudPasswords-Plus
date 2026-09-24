@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# App specific
+deps/
+logs/
+*.log
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Build artifacts
+build/
+dist/
+*.exe
+*.zip
+*.spec

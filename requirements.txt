@@ -1,0 +1,2 @@
+# Zero external runtime dependencies
+# Powered by Python Standard Library & Windows Win32 API
